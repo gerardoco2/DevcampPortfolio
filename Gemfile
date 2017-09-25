@@ -55,3 +55,5 @@ gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 
 gem 'colina_view_tool', git: 'https://github.com/gerardoco2/colina_view_tool'
+
+gem 'petergate', '~> 1.7', '>= 1.7.5'

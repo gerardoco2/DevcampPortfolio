@@ -15,4 +15,10 @@ module ApplicationHelper
 	 		content_tag(:p, greeting, class: "source-greeting" )
 		end 
 	end
+
+	
+
+  def copyright_generator
+  	ColinaViewTool::Renderer.copyright 'Gerardo Colina', 'All rights reserved.'
+  end
 end

@@ -53,3 +53,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
+
+gem 'colina_view_tool', git: 'https://github.com/gerardoco2/colina_view_tool'

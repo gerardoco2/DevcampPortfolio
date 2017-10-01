@@ -127,20 +127,6 @@ body {
 }
 
 
-/*
- * Custom styles
- */
-
-.card-body{
-  color: black;
-  text-align: left;
-}
-.auth-links a {
-  color: black;
-
-  
-}
-
 
 @media (min-width: 40em) {
   /* Pull out the header and footer */
@@ -171,3 +157,48 @@ body {
     width: 55rem;
   }
 }
+
+
+/*
+ * Custom styles
+ */
+
+.card-block{
+  color: black;
+  text-align: left;
+  margin: 10px;
+}
+.auth-links a {
+  color: black;
+
+}
+.register-text{
+  text-align: right;
+}
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

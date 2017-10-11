@@ -6,48 +6,46 @@
     <title><%= @page_title %> </title>
     <%= csrf_meta_tags %>
 
-	<meta name="keywords" content="<%= @seo_keywords %>" />
-  
-
-    <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  	<meta name="keywords" content="<%= @seo_keywords %>" />
+      <%= stylesheet_link_tag 'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
 
   <body>
  
 
-<!-- start of nav -->
- <%= render 'shared/blog_nav' %>   
-<!-- end of nav -->
+  <!-- start of nav -->
+   <%= render 'shared/blog_nav' %>   
+  <!-- end of nav -->
 
 
 
-<!-- start of blog header -->
-<%= render 'shared/blog_masterhead' %>   
-<!-- end of blog header -->
+  <!-- start of blog header -->
+  <%= render 'shared/blog_masterhead' %>   
+  <!-- end of blog header -->
 
 
-<!-- start of container and row element -->
-    <div class="container">
+  <!-- start of container and row element -->
+      <div class="container">
 
-      <div class="row">
-	      
-      
+        <div class="row">
+  	      
+        
 
-        <%= yield %>
+          <%= yield %>
 
-        <%= render 'shared/blog_sidebar' %>
+          <%= render 'shared/blog_sidebar' %>
 
+        </div>
+        
+         <!-- start of footrr -->
+        <%= render 'shared/blog_footer' %>        
+          <!-- end of footrr -->
+        <%= alerts %>
+
+
+        <%= source_helper("blog") %>
       </div>
-      
-       <!-- start of footrr -->
-      <%= render 'shared/blog_footer' %>        
-        <!-- end of footrr -->
-      <%= alerts %>
-
-
-      <%= source_helper("blog") %>
-    </div>
 
 
       

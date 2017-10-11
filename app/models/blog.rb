@@ -10,4 +10,9 @@ class Blog < ApplicationRecord
  	belongs_to :topic
  	
 
+ 	def self.recent
+ 		order("created_at DESC")
+ 		
+ 	end
+
 end

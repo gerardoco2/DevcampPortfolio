@@ -1,0 +1,662 @@
+[33mcommit 0477fa8a40fef516f3fc52957a0f047075d161a2[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Oct 14 00:26:23 2017 -0400
+
+    added progress bar for skills
+
+[33mcommit 71acc8f0ae74bb88685b025666f5c95e56981ab6[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Oct 14 00:05:43 2017 -0400
+
+    updated about page to have collapsable components
+
+[33mcommit d3872f8f632d789e9d6344c71f8cf2a52cee67d3[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 13 23:44:27 2017 -0400
+
+    implemented styles updates for about page
+
+[33mcommit f073330ed3174969e8c777ccbc67ce2046aa1a19[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 13 09:00:57 2017 -0400
+
+    implemented fixed for images and grid for portfolio items
+
+[33mcommit ed8fbf2b255a41ead7d574e9d769755638987a38[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 13 08:54:08 2017 -0400
+
+    integrated favicon on all layouts
+
+[33mcommit d8b777e67a88b1a09c5a4b65dd6851363fa215c9[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 13 08:45:22 2017 -0400
+
+    updated source tracking feature
+
+[33mcommit 3e757f1550e406170e1287d55768d90e83ae5b70[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 12 17:22:36 2017 -0400
+
+    implemented partial for admin action
+
+[33mcommit 8964d8f728246528becae6167031c8b788dad8e0[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 12 16:55:47 2017 -0400
+
+    implemented icons and breadcrumbs
+
+[33mcommit 0995e30685080242f7ac9070b3a9f402a8179772[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 12 16:08:33 2017 -0400
+
+    implemented markdown for blog post
+
+[33mcommit b1ee9661a7c88b76220a231d48ec5c172f8c2360[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 12 14:28:42 2017 -0400
+
+     Added radio button for status fields for blogs
+
+[33mcommit 8703517ef59f67e7be9391a940e0a35ed9b6df3b[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 12 01:15:54 2017 -0400
+
+    implemented the blog widget for topics
+
+[33mcommit 7d8771f8af0c823af7ef2f0470f902e7caa33551[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 12 00:38:27 2017 -0400
+
+    Built out topic views
+
+[33mcommit 918a6233cf4f0fe3de9f033b5bbde532caceed67[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 20:23:15 2017 -0400
+
+     implemented validations for topics in blog and added collection select for topics in the form
+
+[33mcommit 5a3b82a4f2213baa0c5275aadfac1ada94955c7c[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 20:00:01 2017 -0400
+
+     implemented redirect for blog show page when non admin tryies to access draft blogs
+
+[33mcommit a107dbadc34dd084c23c68305be170fd9ea9854c[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 19:52:24 2017 -0400
+
+    implemented custom scope for recent blogs and hide draft post for non admin
+
+[33mcommit c6396e1fc25bcc6607d6e5b84f63778be2939eac[m
+Merge: 45c1e6a d3abd4a
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 15:25:03 2017 -0400
+
+    Merge pull request #7 from gerardoco2/actioncable
+    
+    Actioncable
+
+[33mcommit d3abd4a85bf9d674807ca0fc200c7c8da0afa4a2[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 15:05:52 2017 -0400
+
+    completed comment feature with action cable
+
+[33mcommit f519244ad89537795312690cdea884b0f7a328d4[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 14:43:59 2017 -0400
+
+    implemented action cable for comments
+
+[33mcommit 09eff382d414cf45cba42bf55f824d69573bda53[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 10:10:39 2017 -0400
+
+     created a comment broadcast, configured the websocket route
+
+[33mcommit 8075ad8ef71e8749309fb587d07ce74640b1a8b3[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 09:50:57 2017 -0400
+
+     implemented jquery funstions for action cable comment feature
+
+[33mcommit 36b2dea2fe99177adb57f9b3adcf550436967d14[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 08:34:28 2017 -0400
+
+    refactored form into partial for comments and added validation for content model
+
+[33mcommit 8aafff5d2e9d129a6a0e57043f92c0ee5bc59857[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Oct 11 07:52:10 2017 -0400
+
+     Built out initial form for comments along with controller actions
+
+[33mcommit edd2a7f2d9a331f33578937681a2735d5e7baa9d[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Oct 10 15:30:01 2017 -0400
+
+     implemented redis library and created comment generator
+
+[33mcommit 45c1e6a19f90a0d52b154ea23747e7c50036cb5f[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Oct 9 15:29:35 2017 -0400
+
+     refactored alerts into helper method
+
+[33mcommit 98947270ac212b6ae6141f12593bb6ba09270a71[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Oct 9 15:10:14 2017 -0400
+
+     integrated gritter notifications
+
+[33mcommit 2b9b57104cc5e1d3e1e7235c95bcdf9748492924[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Oct 9 14:28:42 2017 -0400
+
+    integrated ccocoon for portfolio items nested component
+
+[33mcommit ad201924fdf881c661977f5412b19fc6fcd529b7[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Oct 9 10:28:42 2017 -0400
+
+    Updated fix for show page image and added edit button
+
+[33mcommit 71b3965d52cd8c335580aebdd7f0bed964bc425d[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Oct 7 14:12:43 2017 -0400
+
+     file upload forms
+
+[33mcommit 6b2098eff534de85aa8f052e33f6291ae7ad5c8e[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Oct 7 11:16:59 2017 -0400
+
+    implemented initial file uploading system via carrierwae for portfolio items
+
+[33mcommit 75225fe5930cde405bf62e95ace89c5a6eb3868d[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Oct 7 09:00:59 2017 -0400
+
+    integrated video background
+
+[33mcommit 5e479e37c2d468c57da28f584c72c31526e1e551[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 19:36:46 2017 -0400
+
+    integrated image background for app layout
+
+[33mcommit cf79f27e4af9b30f5a9c45f2bb3c8ec4dcc78053[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 19:18:08 2017 -0400
+
+    updated images for about me page
+
+[33mcommit 9cbcf603fc38adb2bfc374c830ab4a7892e0b19f[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 17:31:54 2017 -0400
+
+     implemented authorization rules for portfolio controller and view
+
+[33mcommit dfdd5f36e604cea01370814ee55b31964c505cf8[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 17:24:44 2017 -0400
+
+     implemented persistent posistion update for drag and drop interface
+
+[33mcommit 9e07519fe7d7561219441c92809a17df10d25a99[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 15:34:01 2017 -0400
+
+     integrated initial drag and drop implementation
+
+[33mcommit d7a7eb5560d5e55128715ae797334a88d19465f7[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 07:40:01 2017 -0400
+
+     installed jquery library
+
+[33mcommit 96ff06ed1b1fc7856c8ff4af4e4694d4e5d9313d[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Oct 6 00:41:07 2017 -0400
+
+    Updated portfolio to include attr for position
+
+[33mcommit 22684272ccc7e4bb430bcb51754e61ddeed9a11d[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 5 19:20:21 2017 -0400
+
+    implemented refactor for navigation and active statuses
+
+[33mcommit dc97c9ef0c918d5d4dd62e0fa7f2dddb434a18c9[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 5 15:49:00 2017 -0400
+
+    updated form styles in portfolio
+
+[33mcommit 127981caccac2fc453c95d96a84db3c5af8494cc[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 5 11:26:32 2017 -0400
+
+     implemented show page styles for portfolio layout
+
+[33mcommit 4fe21cdcfcda32a1c88994eecd6df516ade7ad7f[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 5 11:18:38 2017 -0400
+
+    implemented partials for nav, footer and masthead for portfolio layout
+
+[33mcommit 830422609d63347e921f34b39a2a4acbebe69a06[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 5 10:34:05 2017 -0400
+
+     implemented nitial design for portfolio
+
+[33mcommit 34532b66a34be011356737920bf7d3224c7b25d7[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Oct 5 10:12:57 2017 -0400
+
+     implemented pagination
+
+[33mcommit f6e5b04245e7b89c8a91d9fd094bbf60796d159a[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Oct 3 23:38:11 2017 -0400
+
+     integrated styles for blog
+
+[33mcommit 59ee011df8db000ffd18d0958016f5c46279c567[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Oct 3 23:12:28 2017 -0400
+
+     updated auth to include draft and status toggle
+
+[33mcommit d8fe6af36d29d08a550d61ac0a800e5f5eb408f3[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Oct 3 22:08:33 2017 -0400
+
+     implemented navbar for blogs layout
+
+[33mcommit 8ec29f995f6469a2d462649b82397b08a808f32e[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Oct 1 15:40:03 2017 -0400
+
+     implemented styles for the initial blog layout
+
+[33mcommit d2aabd9790ab3fafd789cbb66a1858e27a71f863[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Oct 1 12:56:44 2017 -0400
+
+    fixed bug with login helper  method by setting defaults
+
+[33mcommit 08eedb22750b8c8e5f30db3e23d816309de64bde[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Oct 1 12:51:49 2017 -0400
+
+     finished initial styling of devise pages
+
+[33mcommit 90aa5902691fbadd808872d0fa57796b7094b532[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Sep 27 16:12:41 2017 -0400
+
+    updated styles for user edit page
+
+[33mcommit c971e0c9ada27c676722b90d16c1c25b5b1b2b67[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Wed Sep 27 15:07:21 2017 -0400
+
+     Updated styles and added map for contact page
+
+[33mcommit 500b3ab52643f74478c269faf5a5f332be32ee16[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 26 01:58:03 2017 -0400
+
+    Updated styles for master layout files
+
+[33mcommit ece4accd52125899a6447afca38421d6426be512[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 26 01:41:15 2017 -0400
+
+    Installed styles for application layout
+
+[33mcommit 680a1b72773fba8dfd8c878130658fc02f60d279[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 26 01:07:32 2017 -0400
+
+    IMplemented authorization and gem for portfolio items and blogs
+
+[33mcommit 26781ca31ed2b2d236c8e393b7495604607b3263[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 26 00:31:17 2017 -0400
+
+    added installation requirements for petergate
+
+[33mcommit b7826ed773429bba788d39075c35a9f235b7d774[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 25 17:03:12 2017 -0400
+
+    installed petergate gem for authorization
+
+[33mcommit 84bd56128c95acc22f8d5b883ea8b4cbed596d2a[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 25 01:04:51 2017 -0400
+
+     integrated new gem  into rails app for copyright
+
+[33mcommit 485399a72e5d3032ca251762027317ac88a35bf5[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 24 20:20:09 2017 -0400
+
+    implemented bootstrap gem and styles
+
+[33mcommit 995dabf81cc6c62712b65685bd0a5a4649783205[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 24 12:46:09 2017 -0400
+
+    refactore before action  for portfolio setting
+
+[33mcommit bde941e00f783f3f299b9b51c5537b3d08cc6df7[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 24 10:48:14 2017 -0400
+
+     implemented helper methods from Actioniew
+
+[33mcommit d6f49224b7789c99ffad82de0d722efb9df7423a[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 24 10:28:53 2017 -0400
+
+    implemented collection based partial
+
+[33mcommit 153cf6dde41483b0c44eca317c49fdf7b76314ba[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 24 10:10:10 2017 -0400
+
+     implemented content tag helper method
+
+[33mcommit 01e6d24bab3cff2cef174b3206181404cd2eb6c8[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 24 09:50:28 2017 -0400
+
+     implemented view helper for auth links
+
+[33mcommit 1644c5cb2009b2c6d8040ef8c9d2e9d91bd5cbec[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 18:20:20 2017 -0400
+
+    implemented parcials with local data for portfolio and nav bar
+
+[33mcommit cbdbc268c1cbb11e016b4f1e5bdf12ebcca7b827[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 17:22:41 2017 -0400
+
+     implemented parcials for nav bar
+
+[33mcommit 4cd3eb40b91d9195ef0dfc233f2a02a7d415edb5[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 16:49:11 2017 -0400
+
+     custom layout for blogs and portfolios
+
+[33mcommit 6a0f087a0a12fd89b448235ae5feb990132d245b[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 13:33:51 2017 -0400
+
+     Added nav bar and added default header content
+
+[33mcommit 2326adac6d2e5c79a09e9f4bcde8dc43e33ef9ee[m
+Merge: c675e11 22e3960
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 01:39:22 2017 -0400
+
+    Merge pull request #6 from gerardoco2/controller
+    
+     added guest user for current_user
+
+[33mcommit 22e39600bac3db1e90cae3ef7f6303817d674bea[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 01:36:58 2017 -0400
+
+     added guest user for current_user
+
+[33mcommit c675e111a101682950e6485eaa79418bcf6249ee[m
+Merge: 7bd1528 0a3a014
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Sat Sep 23 01:36:55 2017 -0400
+
+    Merge pull request #5 from gerardoco2/controller
+    
+    Controller
+
+[33mcommit 0a3a0149eb03b72b7d0ac62e419e8e1c2578ed0a[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 22:15:36 2017 -0400
+
+    refactor strong params for portfolio items
+
+[33mcommit 9a2cbbd0f02288d0d32810bb880788470b8240d2[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 21:59:29 2017 -0400
+
+    refactored application controller to include concer for source feature
+
+[33mcommit 60a082b99538cd6628b733e7c6e967007789aa6c[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 21:48:47 2017 -0400
+
+    added session tracker for dynamic source link
+
+[33mcommit 7bd1528b66d8e38155035a8ac3e107be369fd573[m
+Merge: b92fa7f a9146bd
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 20:30:52 2017 -0400
+
+    Merge pull request #4 from gerardoco2/authentication
+    
+    Authentication
+
+[33mcommit a9146bde66a2d8ba7b92569d6749f9828d9c2b74[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 20:27:25 2017 -0400
+
+     completed authentication with virtual attributes
+
+[33mcommit 1c7966f8908767964834aeda02a8f5b188d4a67b[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 19:48:37 2017 -0400
+
+     added controller concerns for devise parameters
+
+[33mcommit 8be4786f57a243687ebf3a18821646d210b5d82a[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 19:31:59 2017 -0400
+
+    added new parameters for user registratrion and editing account
+
+[33mcommit 7b18a2988a7d26c8e0f60725163b679cd6cd55e8[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 13:53:24 2017 -0400
+
+    implemented logout functionality and dynamic view rendering for auth
+
+[33mcommit 7c05ff3b71e9cb19a290f497a425e8cd8c6e64bb[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 13:42:57 2017 -0400
+
+     changed routes to register
+
+[33mcommit 64ebafe75ef64ed6d3ba98587301c670282e9a55[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Fri Sep 22 13:36:30 2017 -0400
+
+    implemented basic authentication
+
+[33mcommit 21cb13725f15f00a901768282ca21612af23f275[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Thu Sep 21 20:57:18 2017 -0400
+
+    Installed Devise gem
+
+[33mcommit b92fa7fb60964fe9c3354bbb5cf6ef4d9fa6fbee[m
+Merge: bdc6c5e 1c68d49
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 20:43:21 2017 -0400
+
+    Merge pull request #3 from gerardoco2/data-feature
+    
+    Implemented form configuration for nested atributes
+
+[33mcommit bdc6c5e5dcf2eb1d15c34f54743b4a69dd6ff84e[m
+Merge: 5b6f0d3 408d762
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 20:41:00 2017 -0400
+
+    Merge pull request #2 from gerardoco2/data-feature
+    
+    Data feature
+
+[33mcommit 1c68d49dfb81401963a9acd7824219302e7061ef[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 20:36:55 2017 -0400
+
+    Implemented form configuration for nested atributes
+
+[33mcommit 408d76294bb29d2b4b97b6d2ac0479822f102f84[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 19:59:08 2017 -0400
+
+    integrated nested attributes for portfolio model
+
+[33mcommit 3b0baec333f8ad998cd61dc13ff73aa4d640e936[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 16:38:55 2017 -0400
+
+    integrated technology module
+
+[33mcommit f4fa42f879997411de62cf79345fa2627e75727c[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 14:17:38 2017 -0400
+
+    implemented concerns for managing image data
+
+[33mcommit d86d745872943fa172847b8fa5e806955cd0c9e2[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 13:57:49 2017 -0400
+
+     implemented image default for portfolio items
+
+[33mcommit d2bdc9589067e15a8f94ad14763366f581b3bc54[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 13:30:31 2017 -0400
+
+    implemented custom scope for portfolio item
+
+[33mcommit 8e4555a59946189a902bdd9664232f85b452673b[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 11:35:55 2017 -0400
+
+    integrated database relationship between topics and blog posts
+
+[33mcommit 164c0b63192e07d61212f6dd31106bd5adf86ad6[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Tue Sep 19 10:27:08 2017 -0400
+
+     implemented validations for blogs, skills, and portfolio items
+
+[33mcommit 5b6f0d3ef2018e71b12dcdc2accd29cf3e835ec8[m
+Merge: c85ea17 7405f15
+Author: Gerardo Colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 19:32:08 2017 -0400
+
+    Merge pull request #1 from gerardoco2/portfolio-feature
+    
+    Portfolio feature
+
+[33mcommit 7405f15aa050dd960f883ea426d73be5eee1a98c[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 19:28:01 2017 -0400
+
+     implemented toggle function for status
+
+[33mcommit b4c814060528f2552caa7a085dd44c951d6aacca[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 15:44:27 2017 -0400
+
+    updated status for enum
+
+[33mcommit 4f9a103d3c2282dd1497593d5a21e77d367a7c22[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 14:01:53 2017 -0400
+
+    integrated friendly routes for blog post
+
+[33mcommit 47990111de71afe7d00727bd4b313dd89e46b233[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 13:07:30 2017 -0400
+
+    customized portfolio routes
+
+[33mcommit 086f0a311d7173b30c89f48226c1584bc9302682[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 12:57:16 2017 -0400
+
+     configure custom routes for pages
+
+[33mcommit 69d216b327665a0cf359d01254e2631b1e745d90[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 12:46:23 2017 -0400
+
+     implemented destroy action for portfolio item
+
+[33mcommit 346125d518d296d14237f0b273aef6cedbc12e71[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 09:22:05 2017 -0400
+
+    Implemented show functionality for portfolio module
+
+[33mcommit 22da9bdf8f73e8ed1ab7897b6dd705c070ed5594[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 08:53:37 2017 -0400
+
+    added new and edit buttons for portfolio items
+
+[33mcommit cb5e1be345e9680759f20445099d61591beb65a5[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 08:33:26 2017 -0400
+
+    implemented edit and update functionality
+
+[33mcommit ba349d1b04ce20ffb7e911201bed601180d0acd9[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 01:17:25 2017 -0400
+
+    integrated new and create action for portfolio
+
+[33mcommit a7ddf250d4fff0144154e6c562eb4d269bba3f49[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 00:34:19 2017 -0400
+
+    integrated index action for portfolio items
+
+[33mcommit 64540b4b63e198cd6725c87da369e5ec1ac2b258[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Mon Sep 18 00:11:36 2017 -0400
+
+     created seed for sample data
+
+[33mcommit c85ea174b4e692149a89af4c90756c4eb7b3039d[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 17 20:07:25 2017 -0400
+
+    added portfolio item via rails generator
+
+[33mcommit 07254bf9efa01d363682f3f42c1ed7822f6f64f4[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 17 17:32:50 2017 -0400
+
+    integrated skill via model generator
+
+[33mcommit 7272b4039912bd6d04c5b3b67002a49cae44a82c[m
+Author: gerardo colina <gerardocolina@gmail.com>
+Date:   Sun Sep 17 16:51:52 2017 -0400
+
+    first commit
